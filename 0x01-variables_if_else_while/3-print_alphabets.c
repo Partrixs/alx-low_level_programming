@@ -10,8 +10,8 @@ int main(void)
 
 	char n;
 
-	m = 'j';
-	n = 'J';
+	m = 'a';
+	n = 'A';
 	while
 		(m <= 'z') {
 			putchar(m);
