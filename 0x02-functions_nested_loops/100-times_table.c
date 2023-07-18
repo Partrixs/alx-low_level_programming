@@ -24,6 +24,8 @@ void print_times_table(int n)
 	c = a * b;
 	if (c <= 99)
 	_putchar(' ');
+	if (c <= 9)
+	_putchar(' ');
 	if (c >= 100)
 	{
 	_putchar((c / 100) + '0');
