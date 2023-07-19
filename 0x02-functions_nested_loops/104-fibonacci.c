@@ -8,7 +8,7 @@ int main(void)
 
 {
 	int count;
-	unsigned long fib1 = a, fib2 = 1, sum;
+	unsigned long fib1 = 0, fib2 = 1, sum;
 	unsigned long fib1_log1, fib1_log2, fib2_log1, fib2_log2;
 	unsigned long log1, log2;
 
