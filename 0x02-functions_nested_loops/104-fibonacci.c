@@ -20,7 +20,7 @@ int main(void)
 	fib2 = sum;
 	}
 	fib1_log1 = fib1 / 1000000000;
-	fig2_log1 = fib2 / 1000000000;
+	fib2_log1 = fib2 / 1000000000;
 	fib1_log2 = fib1 % 1000000000;
 	fib2_log2 = fib2 % 1000000000;
 	for (count = 93; count < 99; count++)
