@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - Starting point
@@ -10,18 +10,20 @@
 
 int main(void)
 {
-	int i = 0;
-	long j = 1, k = 2, sum = k; 
+	int limit = 4000000;
+	int fib1 = 1;
+	int fib2 = 2;
+	int next;
+	int sum = 2;
 
-	while (k + j < 4000000)
+	while (next <= limit)
 	{
-	k + j;
-
-	if (k % 7 == )
-	sum += k;
-	j = k - j;
-	++i
+		next = fib1 + fib2;
+		if (next % 2 == 0)
+			sum = sum + next;
+		fib1 = fib2;
+		fib2 = next;
 	}
-	printf("%ld\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
