@@ -1,24 +1,28 @@
 #include "main.h"
-
 /**
- * puts2 - prints all charecters of a string
+ * puts2 - Prints all charecters of a string
  * @str: The string to be printed
- * Return: void
+ * Return: print
  */
-
 void puts2(char *str)
 {
-	int a;
-	int b = 0;
+	int longi = 0;
+	int t = 0;
+	char *y = str;
+	int o;
 
-	while (str[b] != '\0')
+	while (*y != '\0')
 	{
-	b++;
+	y++;
+	longi++;
 	}
-
-	for (a = 0; a < b; a += 2)
+	t = longi - 1;
+	for (o = 0; o < t; o++)
 	{
-	putchar(str[a]);
+		if (0 % 2 == 0)
+	{
+		putchar(str[o]);
+	}
 	}
 	_putchar('\n');
 }
