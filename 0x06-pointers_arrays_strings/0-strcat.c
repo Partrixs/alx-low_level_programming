@@ -1,13 +1,15 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strcat - concatenates two strings
  * @dest: The destination string
  * @src: The source string
- * Return: A pointer to resulting string dest
+ * Return: a pointer to resulting string dest
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
+
 {
 	int a;
 	int b;
@@ -18,8 +20,7 @@ char *_strcat(char *dest, char *src);
 		a++;
 	}
 	b = 0;
-	while (src[b] != 0; '\0')
-
+	while (src[b] != '\0')
 	{
 		dest[a] = src[b];
 		a++;
