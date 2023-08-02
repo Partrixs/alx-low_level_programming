@@ -4,13 +4,14 @@
 int check_prime(int n, int a);
 
 /**
- * is _prime_number - Returns if a number is prime
+ * is_prime_number - Returns if a number is prime
  * @n: the number that is being checked
  *
- * Return: integer value
+ * Return: 1 for prime numbers and 0 if not
  */
 
 int is_prime_number(int n)
+
 {
 	return (check_prime(n, 2));
 }
@@ -33,7 +34,7 @@ int check_prime(int n, int a)
 	if (n % a == 0)
 		return (0);
 
-	if ((a * a) > n)
+	if (a * a > n)
 		return (1);
 
 	return (check_prime(n, a + 1));
