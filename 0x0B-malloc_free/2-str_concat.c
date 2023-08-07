@@ -7,7 +7,7 @@
  * @s1: the first string to be concatenated
  * @s2: the second string to be concatenated
  *
- * Return: pointer to a newly allocated space in memory or NULL if allocation fails
+ * Return: pointer to a newly allocated space in memory or NULL not
  */
 
 char *str_concat(char *s1, char *s2)
