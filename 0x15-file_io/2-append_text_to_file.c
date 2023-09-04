@@ -30,6 +30,7 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (rd_rt == -1)
 		return (-1);
+	}
 
 	close(def);
 
