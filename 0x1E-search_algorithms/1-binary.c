@@ -27,7 +27,7 @@ int binary_search(int *array, size_t size, int value)
 		if (array[vl] == value)
 			return (vl);
 		if (array[vl] > value)
-			right = i - 1;
+			right = vl - 1;
 		else
 			left = vl + 1;
 	}
